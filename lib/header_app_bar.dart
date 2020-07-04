@@ -8,6 +8,10 @@ class HeaderAppBar extends StatelessWidget {
 
     return Stack(
       children: <Widget>[
+        Container(
+          color: Colors.white,
+          height: 340.0,
+        ),
         new GradientBackground("Bienvenido"),
         CargImageList()
       ],
